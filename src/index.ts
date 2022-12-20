@@ -1,10 +1,6 @@
 import { BasePlugin, DefaultPluginOptions, Uppy, UppyFile } from '@uppy/core'
 import convert from 'heic-convert'
-
-interface ImageObject {
-  data: File,
-  preview: string
-}
+import { ImageObject } from '../types'
 
 export default class UppyHEICPlugin extends BasePlugin {
   constructor (uppy: Uppy, opts?: DefaultPluginOptions | undefined) {
