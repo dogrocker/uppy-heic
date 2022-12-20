@@ -1,6 +1,6 @@
 {
   "name": "uppy-heic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uppy plugin to convert HEIC to JPEG before upload, using heic-convert package",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
