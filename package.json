@@ -1,0 +1,39 @@
+{
+  "name": "uppy-heic",
+  "version": "1.0.0",
+  "description": "Uppy plugin to convert HEIC to images before upload, using heic-convert package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [
+    "uppy",
+    "uppy plugin",
+    "heic"
+  ],
+  "bugs": {
+    "url": "https://github.com/dogrocker/uppy-heic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogrocker/uppy-heic.git"
+  },
+  "homepage": "https://github.com/dogrocker/uppy-heic#readme",
+  "author": "Kanin Peanviriyakulkit",
+  "license": "MIT",
+  "dependencies": {
+    "@uppy/core": "^3.0.4",
+    "heic-convert": "^1.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "cross-env": "^7.0.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
+  }
+}
